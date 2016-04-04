@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A328DAC497C5579DD89DC8B /* libPods-Yellwest Keyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF8766171CEFB15675EB061 /* libPods-Yellwest Keyboard.a */; };
+		EF188B861CAD444E004DF3E3 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF188B851CAD444E004DF3E3 /* Keyboard.storyboard */; };
+		EF188B8A1CAD44BF004DF3E3 /* YWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF188B891CAD44BF004DF3E3 /* YWUtils.m */; };
+		EF188B8C1CAD461D004DF3E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF188B8B1CAD461D004DF3E3 /* Images.xcassets */; };
+		EF188B941CAD4AF4004DF3E3 /* IMGActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EF188B901CAD4AF4004DF3E3 /* IMGActivityIndicator.m */; };
+		EF188B951CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF188B931CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.m */; };
+		EF4242111CAD5CF500D0AED1 /* GiphyContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242101CAD5CF500D0AED1 /* GiphyContent.m */; };
+		EF4242141CAD5D0500D0AED1 /* YoutubeContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242131CAD5D0500D0AED1 /* YoutubeContent.m */; };
+		EF4242181CAD5E5600D0AED1 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242171CAD5E5600D0AED1 /* NSDictionary+Additions.m */; };
+		EF42422A1CAD621400D0AED1 /* GIFCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF42421D1CAD621400D0AED1 /* GIFCell.m */; };
+		EF42422B1CAD621400D0AED1 /* GIFCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF42421E1CAD621400D0AED1 /* GIFCell.xib */; };
+		EF42422C1CAD621400D0AED1 /* GIFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242201CAD621400D0AED1 /* GIFViewController.m */; };
+		EF42422D1CAD621400D0AED1 /* GIFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4242211CAD621400D0AED1 /* GIFViewController.xib */; };
+		EF42422E1CAD621400D0AED1 /* YoutubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242241CAD621400D0AED1 /* YoutubeViewController.m */; };
+		EF42422F1CAD621400D0AED1 /* YoutubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4242251CAD621400D0AED1 /* YoutubeViewController.xib */; };
+		EF4242301CAD621400D0AED1 /* YoutubeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242281CAD621400D0AED1 /* YoutubeCell.m */; };
+		EF4242311CAD621400D0AED1 /* YoutubeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4242291CAD621400D0AED1 /* YoutubeCell.xib */; };
+		EF42423A1CAD629F00D0AED1 /* TCKGIFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242351CAD629F00D0AED1 /* TCKGIFCollectionViewCell.m */; };
+		EF42423B1CAD629F00D0AED1 /* TCKInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242371CAD629F00D0AED1 /* TCKInfoView.m */; };
+		EF42423F1CAD63F300D0AED1 /* ContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF42423E1CAD63F300D0AED1 /* ContentManager.m */; };
+		EF4242421CAD68F800D0AED1 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242411CAD68F800D0AED1 /* NSDate-Utilities.m */; };
+		EF7B5BCF1CAD034100E6771A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BCE1CAD034100E6771A /* main.m */; };
+		EF7B5BD21CAD034100E6771A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BD11CAD034100E6771A /* AppDelegate.m */; };
+		EF7B5BD51CAD034100E6771A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BD41CAD034100E6771A /* ViewController.m */; };
+		EF7B5BD81CAD034100E6771A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7B5BD61CAD034100E6771A /* Main.storyboard */; };
+		EF7B5BDA1CAD034100E6771A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7B5BD91CAD034100E6771A /* Assets.xcassets */; };
+		EF7B5BDD1CAD034100E6771A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7B5BDB1CAD034100E6771A /* LaunchScreen.storyboard */; };
+		EF7B5BEC1CAD039400E6771A /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BEB1CAD039400E6771A /* KeyboardViewController.m */; };
+		EF7B5BF01CAD039400E6771A /* Yallwest Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF7B5BE81CAD039400E6771A /* Yallwest Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF7B5BFC1CAD0D9E00E6771A /* YWHowToInstallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BFB1CAD0D9E00E6771A /* YWHowToInstallTableViewController.m */; };
+		EFCD08CE1CAD3F0700885535 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFCD08CC1CAD3F0700885535 /* OpenSans-Bold.ttf */; };
+		EFCD08CF1CAD3F0700885535 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFCD08CD1CAD3F0700885535 /* OpenSans-Regular.ttf */; };
+		EFF158D01CAE6C86002ED29D /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFCD08CC1CAD3F0700885535 /* OpenSans-Bold.ttf */; };
+		EFF158D11CAE6C88002ED29D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFCD08CD1CAD3F0700885535 /* OpenSans-Regular.ttf */; };
+		EFF158D71CAE8827002ED29D /* EmojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF158D51CAE8827002ED29D /* EmojiViewController.m */; };
+		EFF158D81CAE8827002ED29D /* EmojiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF158D61CAE8827002ED29D /* EmojiViewController.xib */; };
+		EFF158DC1CAE8840002ED29D /* EmojiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF158DA1CAE8840002ED29D /* EmojiCell.m */; };
+		EFF158DD1CAE8840002ED29D /* EmojiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF158DB1CAE8840002ED29D /* EmojiCell.xib */; };
+		EFF159101CAE9469002ED29D /* Emojis in Resources */ = {isa = PBXBuildFile; fileRef = EFF1590F1CAE9469002ED29D /* Emojis */; };
+		EFF159161CAEA6B5002ED29D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF159151CAEA6B5002ED29D /* Constants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7B5BEE1CAD039400E6771A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7B5BC21CAD034100E6771A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7B5BE71CAD039400E6771A;
+			remoteInfo = "Yellwest Keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF7B5BF41CAD039400E6771A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EF7B5BF01CAD039400E6771A /* Yallwest Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92B2C245C43F462ACDCC6075 /* Pods-Yellwest Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yellwest Keyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yellwest Keyboard/Pods-Yellwest Keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		BB613A65F8DC7ED366E7BAF4 /* Pods-Yellwest Keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yellwest Keyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yellwest Keyboard/Pods-Yellwest Keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		BBF8766171CEFB15675EB061 /* libPods-Yellwest Keyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yellwest Keyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF188B851CAD444E004DF3E3 /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
+		EF188B881CAD44BF004DF3E3 /* YWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWUtils.h; sourceTree = "<group>"; };
+		EF188B891CAD44BF004DF3E3 /* YWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWUtils.m; sourceTree = "<group>"; };
+		EF188B8B1CAD461D004DF3E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF188B8F1CAD4AF4004DF3E3 /* IMGActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGActivityIndicator.h; sourceTree = "<group>"; };
+		EF188B901CAD4AF4004DF3E3 /* IMGActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGActivityIndicator.m; sourceTree = "<group>"; };
+		EF188B921CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRaggyCollectionViewLayout.h; sourceTree = "<group>"; };
+		EF188B931CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRaggyCollectionViewLayout.m; sourceTree = "<group>"; };
+		EF42420F1CAD5CF500D0AED1 /* GiphyContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiphyContent.h; sourceTree = "<group>"; };
+		EF4242101CAD5CF500D0AED1 /* GiphyContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiphyContent.m; sourceTree = "<group>"; };
+		EF4242121CAD5D0500D0AED1 /* YoutubeContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeContent.h; sourceTree = "<group>"; };
+		EF4242131CAD5D0500D0AED1 /* YoutubeContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeContent.m; sourceTree = "<group>"; };
+		EF4242161CAD5E5600D0AED1 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
+		EF4242171CAD5E5600D0AED1 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
+		EF42421C1CAD621400D0AED1 /* GIFCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFCell.h; sourceTree = "<group>"; };
+		EF42421D1CAD621400D0AED1 /* GIFCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFCell.m; sourceTree = "<group>"; };
+		EF42421E1CAD621400D0AED1 /* GIFCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIFCell.xib; sourceTree = "<group>"; };
+		EF42421F1CAD621400D0AED1 /* GIFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFViewController.h; sourceTree = "<group>"; };
+		EF4242201CAD621400D0AED1 /* GIFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFViewController.m; sourceTree = "<group>"; };
+		EF4242211CAD621400D0AED1 /* GIFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIFViewController.xib; sourceTree = "<group>"; };
+		EF4242231CAD621400D0AED1 /* YoutubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeViewController.h; sourceTree = "<group>"; };
+		EF4242241CAD621400D0AED1 /* YoutubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeViewController.m; sourceTree = "<group>"; };
+		EF4242251CAD621400D0AED1 /* YoutubeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeViewController.xib; sourceTree = "<group>"; };
+		EF4242271CAD621400D0AED1 /* YoutubeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeCell.h; sourceTree = "<group>"; };
+		EF4242281CAD621400D0AED1 /* YoutubeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeCell.m; sourceTree = "<group>"; };
+		EF4242291CAD621400D0AED1 /* YoutubeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeCell.xib; sourceTree = "<group>"; };
+		EF4242341CAD629F00D0AED1 /* TCKGIFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCKGIFCollectionViewCell.h; sourceTree = "<group>"; };
+		EF4242351CAD629F00D0AED1 /* TCKGIFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCKGIFCollectionViewCell.m; sourceTree = "<group>"; };
+		EF4242361CAD629F00D0AED1 /* TCKInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCKInfoView.h; sourceTree = "<group>"; };
+		EF4242371CAD629F00D0AED1 /* TCKInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCKInfoView.m; sourceTree = "<group>"; };
+		EF42423D1CAD63F300D0AED1 /* ContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentManager.h; sourceTree = "<group>"; };
+		EF42423E1CAD63F300D0AED1 /* ContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentManager.m; sourceTree = "<group>"; };
+		EF4242401CAD68F800D0AED1 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
+		EF4242411CAD68F800D0AED1 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
+		EF7B5BCA1CAD034100E6771A /* Yallwest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yallwest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7B5BCE1CAD034100E6771A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7B5BD01CAD034100E6771A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7B5BD11CAD034100E6771A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF7B5BD31CAD034100E6771A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF7B5BD41CAD034100E6771A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF7B5BD71CAD034100E6771A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7B5BD91CAD034100E6771A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7B5BDC1CAD034100E6771A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7B5BDE1CAD034100E6771A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7B5BE81CAD039400E6771A /* Yallwest Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Yallwest Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7B5BEA1CAD039400E6771A /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		EF7B5BEB1CAD039400E6771A /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		EF7B5BED1CAD039400E6771A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7B5BFA1CAD0D9E00E6771A /* YWHowToInstallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWHowToInstallTableViewController.h; sourceTree = "<group>"; };
+		EF7B5BFB1CAD0D9E00E6771A /* YWHowToInstallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWHowToInstallTableViewController.m; sourceTree = "<group>"; };
+		EFCD08CC1CAD3F0700885535 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		EFCD08CD1CAD3F0700885535 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		EFF158D41CAE8827002ED29D /* EmojiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiViewController.h; sourceTree = "<group>"; };
+		EFF158D51CAE8827002ED29D /* EmojiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiViewController.m; sourceTree = "<group>"; };
+		EFF158D61CAE8827002ED29D /* EmojiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiViewController.xib; sourceTree = "<group>"; };
+		EFF158D91CAE8840002ED29D /* EmojiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiCell.h; sourceTree = "<group>"; };
+		EFF158DA1CAE8840002ED29D /* EmojiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiCell.m; sourceTree = "<group>"; };
+		EFF158DB1CAE8840002ED29D /* EmojiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiCell.xib; sourceTree = "<group>"; };
+		EFF1590F1CAE9469002ED29D /* Emojis */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Emojis; sourceTree = "<group>"; };
+		EFF159141CAEA6B5002ED29D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EFF159151CAEA6B5002ED29D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7B5BC71CAD034100E6771A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7B5BE51CAD039400E6771A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A328DAC497C5579DD89DC8B /* libPods-Yellwest Keyboard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9811970DAB406F3D60101BC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB613A65F8DC7ED366E7BAF4 /* Pods-Yellwest Keyboard.debug.xcconfig */,
+				92B2C245C43F462ACDCC6075 /* Pods-Yellwest Keyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF188B871CAD44B4004DF3E3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF188B881CAD44BF004DF3E3 /* YWUtils.h */,
+				EF188B891CAD44BF004DF3E3 /* YWUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EF188B8D1CAD4AF4004DF3E3 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				EF188B8E1CAD4AF4004DF3E3 /* IMGActivityIndicator */,
+				EF188B911CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		EF188B8E1CAD4AF4004DF3E3 /* IMGActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				EF188B8F1CAD4AF4004DF3E3 /* IMGActivityIndicator.h */,
+				EF188B901CAD4AF4004DF3E3 /* IMGActivityIndicator.m */,
+			);
+			path = IMGActivityIndicator;
+			sourceTree = "<group>";
+		};
+		EF188B911CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EF188B921CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.h */,
+				EF188B931CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.m */,
+			);
+			path = SKRaggyCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		EF42420D1CAD5CD300D0AED1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EF42423D1CAD63F300D0AED1 /* ContentManager.h */,
+				EF42423E1CAD63F300D0AED1 /* ContentManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EF42420E1CAD5CE000D0AED1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF42420F1CAD5CF500D0AED1 /* GiphyContent.h */,
+				EF4242101CAD5CF500D0AED1 /* GiphyContent.m */,
+				EF4242121CAD5D0500D0AED1 /* YoutubeContent.h */,
+				EF4242131CAD5D0500D0AED1 /* YoutubeContent.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF4242151CAD5DF600D0AED1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EF4242401CAD68F800D0AED1 /* NSDate-Utilities.h */,
+				EF4242411CAD68F800D0AED1 /* NSDate-Utilities.m */,
+				EF4242161CAD5E5600D0AED1 /* NSDictionary+Additions.h */,
+				EF4242171CAD5E5600D0AED1 /* NSDictionary+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EF4242191CAD61DF00D0AED1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFF158D21CAE8815002ED29D /* EmojiViewController */,
+				EF42421A1CAD621400D0AED1 /* GIFViewController */,
+				EF4242221CAD621400D0AED1 /* YoutubeViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF42421A1CAD621400D0AED1 /* GIFViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF42421B1CAD621400D0AED1 /* GIFCell */,
+				EF42421F1CAD621400D0AED1 /* GIFViewController.h */,
+				EF4242201CAD621400D0AED1 /* GIFViewController.m */,
+				EF4242211CAD621400D0AED1 /* GIFViewController.xib */,
+			);
+			path = GIFViewController;
+			sourceTree = "<group>";
+		};
+		EF42421B1CAD621400D0AED1 /* GIFCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF42421C1CAD621400D0AED1 /* GIFCell.h */,
+				EF42421D1CAD621400D0AED1 /* GIFCell.m */,
+				EF42421E1CAD621400D0AED1 /* GIFCell.xib */,
+			);
+			path = GIFCell;
+			sourceTree = "<group>";
+		};
+		EF4242221CAD621400D0AED1 /* YoutubeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF4242231CAD621400D0AED1 /* YoutubeViewController.h */,
+				EF4242241CAD621400D0AED1 /* YoutubeViewController.m */,
+				EF4242251CAD621400D0AED1 /* YoutubeViewController.xib */,
+				EF4242261CAD621400D0AED1 /* YoutubeCell */,
+			);
+			path = YoutubeViewController;
+			sourceTree = "<group>";
+		};
+		EF4242261CAD621400D0AED1 /* YoutubeCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF4242271CAD621400D0AED1 /* YoutubeCell.h */,
+				EF4242281CAD621400D0AED1 /* YoutubeCell.m */,
+				EF4242291CAD621400D0AED1 /* YoutubeCell.xib */,
+			);
+			path = YoutubeCell;
+			sourceTree = "<group>";
+		};
+		EF4242321CAD629F00D0AED1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF4242331CAD629F00D0AED1 /* TCKGIFCollectionViewCell */,
+				EF4242361CAD629F00D0AED1 /* TCKInfoView.h */,
+				EF4242371CAD629F00D0AED1 /* TCKInfoView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF4242331CAD629F00D0AED1 /* TCKGIFCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF4242341CAD629F00D0AED1 /* TCKGIFCollectionViewCell.h */,
+				EF4242351CAD629F00D0AED1 /* TCKGIFCollectionViewCell.m */,
+			);
+			path = TCKGIFCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		EF7B5BC11CAD034100E6771A = {
+			isa = PBXGroup;
+			children = (
+				EF7B5BCC1CAD034100E6771A /* Yallwest */,
+				EF7B5BE91CAD039400E6771A /* Yellwest Keyboard */,
+				EF7B5BCB1CAD034100E6771A /* Products */,
+				9811970DAB406F3D60101BC1 /* Pods */,
+				F78B2B21B93D72C05EE14A76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7B5BCB1CAD034100E6771A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B5BCA1CAD034100E6771A /* Yallwest.app */,
+				EF7B5BE81CAD039400E6771A /* Yallwest Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7B5BCC1CAD034100E6771A /* Yallwest */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B5BF51CAD0B7000E6771A /* Controllers */,
+				EF7B5BD01CAD034100E6771A /* AppDelegate.h */,
+				EF7B5BD11CAD034100E6771A /* AppDelegate.m */,
+				EF7B5BD31CAD034100E6771A /* ViewController.h */,
+				EF7B5BD41CAD034100E6771A /* ViewController.m */,
+				EF7B5BD61CAD034100E6771A /* Main.storyboard */,
+				EF7B5BD91CAD034100E6771A /* Assets.xcassets */,
+				EF7B5BDB1CAD034100E6771A /* LaunchScreen.storyboard */,
+				EF7B5BDE1CAD034100E6771A /* Info.plist */,
+				EF7B5BCD1CAD034100E6771A /* Supporting Files */,
+			);
+			path = Yallwest;
+			sourceTree = "<group>";
+		};
+		EF7B5BCD1CAD034100E6771A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD08C71CAD3D3500885535 /* Fonts */,
+				EF7B5BCE1CAD034100E6771A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7B5BE91CAD039400E6771A /* Yellwest Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EF4242151CAD5DF600D0AED1 /* Categories */,
+				EFF159131CAEA699002ED29D /* Constants */,
+				EF4242191CAD61DF00D0AED1 /* Controllers */,
+				EFF1590F1CAE9469002ED29D /* Emojis */,
+				EF188B8D1CAD4AF4004DF3E3 /* Libs */,
+				EF42420D1CAD5CD300D0AED1 /* Managers */,
+				EF42420E1CAD5CE000D0AED1 /* Models */,
+				EF188B871CAD44B4004DF3E3 /* Utils */,
+				EF4242321CAD629F00D0AED1 /* Views */,
+				EF188B8B1CAD461D004DF3E3 /* Images.xcassets */,
+				EF7B5BED1CAD039400E6771A /* Info.plist */,
+				EF188B851CAD444E004DF3E3 /* Keyboard.storyboard */,
+				EF7B5BEA1CAD039400E6771A /* KeyboardViewController.h */,
+				EF7B5BEB1CAD039400E6771A /* KeyboardViewController.m */,
+			);
+			path = "Yellwest Keyboard";
+			sourceTree = "<group>";
+		};
+		EF7B5BF51CAD0B7000E6771A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B5BF91CAD0D9E00E6771A /* HowToInstallViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF7B5BF91CAD0D9E00E6771A /* HowToInstallViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B5BFA1CAD0D9E00E6771A /* YWHowToInstallTableViewController.h */,
+				EF7B5BFB1CAD0D9E00E6771A /* YWHowToInstallTableViewController.m */,
+			);
+			path = HowToInstallViewController;
+			sourceTree = "<group>";
+		};
+		EFCD08C71CAD3D3500885535 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD08CC1CAD3F0700885535 /* OpenSans-Bold.ttf */,
+				EFCD08CD1CAD3F0700885535 /* OpenSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EFF158D21CAE8815002ED29D /* EmojiViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EFF158D31CAE8815002ED29D /* EmojiCell */,
+				EFF158D41CAE8827002ED29D /* EmojiViewController.h */,
+				EFF158D51CAE8827002ED29D /* EmojiViewController.m */,
+				EFF158D61CAE8827002ED29D /* EmojiViewController.xib */,
+			);
+			path = EmojiViewController;
+			sourceTree = "<group>";
+		};
+		EFF158D31CAE8815002ED29D /* EmojiCell */ = {
+			isa = PBXGroup;
+			children = (
+				EFF158D91CAE8840002ED29D /* EmojiCell.h */,
+				EFF158DA1CAE8840002ED29D /* EmojiCell.m */,
+				EFF158DB1CAE8840002ED29D /* EmojiCell.xib */,
+			);
+			path = EmojiCell;
+			sourceTree = "<group>";
+		};
+		EFF159131CAEA699002ED29D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EFF159141CAEA6B5002ED29D /* Constants.h */,
+				EFF159151CAEA6B5002ED29D /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F78B2B21B93D72C05EE14A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBF8766171CEFB15675EB061 /* libPods-Yellwest Keyboard.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7B5BC91CAD034100E6771A /* Yallwest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7B5BE11CAD034100E6771A /* Build configuration list for PBXNativeTarget "Yallwest" */;
+			buildPhases = (
+				EF7B5BC61CAD034100E6771A /* Sources */,
+				EF7B5BC71CAD034100E6771A /* Frameworks */,
+				EF7B5BC81CAD034100E6771A /* Resources */,
+				EF7B5BF41CAD039400E6771A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7B5BEF1CAD039400E6771A /* PBXTargetDependency */,
+			);
+			name = Yallwest;
+			productName = Yallwest;
+			productReference = EF7B5BCA1CAD034100E6771A /* Yallwest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7B5BE71CAD039400E6771A /* Yallwest Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7B5BF11CAD039400E6771A /* Build configuration list for PBXNativeTarget "Yallwest Keyboard" */;
+			buildPhases = (
+				ECF5C70BEC56CE25C6226CB0 /* Check Pods Manifest.lock */,
+				EF7B5BE41CAD039400E6771A /* Sources */,
+				EF7B5BE51CAD039400E6771A /* Frameworks */,
+				EF7B5BE61CAD039400E6771A /* Resources */,
+				20530037959C80AB0E72BA65 /* Embed Pods Frameworks */,
+				EA7D85ECBAB00A8E67278177 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yallwest Keyboard";
+			productName = "Yellwest Keyboard";
+			productReference = EF7B5BE81CAD039400E6771A /* Yallwest Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7B5BC21CAD034100E6771A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrey Lisovskiy";
+				TargetAttributes = {
+					EF7B5BC91CAD034100E6771A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = L5J4Y5AH3B;
+					};
+					EF7B5BE71CAD039400E6771A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EF7B5BC51CAD034100E6771A /* Build configuration list for PBXProject "Yallwest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7B5BC11CAD034100E6771A;
+			productRefGroup = EF7B5BCB1CAD034100E6771A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7B5BC91CAD034100E6771A /* Yallwest */,
+				EF7B5BE71CAD039400E6771A /* Yallwest Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7B5BC81CAD034100E6771A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCD08CF1CAD3F0700885535 /* OpenSans-Regular.ttf in Resources */,
+				EF7B5BDD1CAD034100E6771A /* LaunchScreen.storyboard in Resources */,
+				EF7B5BDA1CAD034100E6771A /* Assets.xcassets in Resources */,
+				EFCD08CE1CAD3F0700885535 /* OpenSans-Bold.ttf in Resources */,
+				EF7B5BD81CAD034100E6771A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7B5BE61CAD039400E6771A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF158DD1CAE8840002ED29D /* EmojiCell.xib in Resources */,
+				EFF159101CAE9469002ED29D /* Emojis in Resources */,
+				EF42422D1CAD621400D0AED1 /* GIFViewController.xib in Resources */,
+				EFF158D01CAE6C86002ED29D /* OpenSans-Bold.ttf in Resources */,
+				EFF158D81CAE8827002ED29D /* EmojiViewController.xib in Resources */,
+				EF42422B1CAD621400D0AED1 /* GIFCell.xib in Resources */,
+				EF42422F1CAD621400D0AED1 /* YoutubeViewController.xib in Resources */,
+				EF188B861CAD444E004DF3E3 /* Keyboard.storyboard in Resources */,
+				EF4242311CAD621400D0AED1 /* YoutubeCell.xib in Resources */,
+				EFF158D11CAE6C88002ED29D /* OpenSans-Regular.ttf in Resources */,
+				EF188B8C1CAD461D004DF3E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20530037959C80AB0E72BA65 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yellwest Keyboard/Pods-Yellwest Keyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7D85ECBAB00A8E67278177 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yellwest Keyboard/Pods-Yellwest Keyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF5C70BEC56CE25C6226CB0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7B5BC61CAD034100E6771A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7B5BD51CAD034100E6771A /* ViewController.m in Sources */,
+				EF7B5BFC1CAD0D9E00E6771A /* YWHowToInstallTableViewController.m in Sources */,
+				EF7B5BD21CAD034100E6771A /* AppDelegate.m in Sources */,
+				EF7B5BCF1CAD034100E6771A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7B5BE41CAD039400E6771A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF42423A1CAD629F00D0AED1 /* TCKGIFCollectionViewCell.m in Sources */,
+				EF7B5BEC1CAD039400E6771A /* KeyboardViewController.m in Sources */,
+				EF4242111CAD5CF500D0AED1 /* GiphyContent.m in Sources */,
+				EFF158D71CAE8827002ED29D /* EmojiViewController.m in Sources */,
+				EF4242181CAD5E5600D0AED1 /* NSDictionary+Additions.m in Sources */,
+				EF42422E1CAD621400D0AED1 /* YoutubeViewController.m in Sources */,
+				EF42422C1CAD621400D0AED1 /* GIFViewController.m in Sources */,
+				EFF158DC1CAE8840002ED29D /* EmojiCell.m in Sources */,
+				EF4242301CAD621400D0AED1 /* YoutubeCell.m in Sources */,
+				EF188B951CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.m in Sources */,
+				EF4242141CAD5D0500D0AED1 /* YoutubeContent.m in Sources */,
+				EF188B8A1CAD44BF004DF3E3 /* YWUtils.m in Sources */,
+				EF188B941CAD4AF4004DF3E3 /* IMGActivityIndicator.m in Sources */,
+				EF42423B1CAD629F00D0AED1 /* TCKInfoView.m in Sources */,
+				EF4242421CAD68F800D0AED1 /* NSDate-Utilities.m in Sources */,
+				EF42422A1CAD621400D0AED1 /* GIFCell.m in Sources */,
+				EF42423F1CAD63F300D0AED1 /* ContentManager.m in Sources */,
+				EFF159161CAEA6B5002ED29D /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7B5BEF1CAD039400E6771A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7B5BE71CAD039400E6771A /* Yallwest Keyboard */;
+			targetProxy = EF7B5BEE1CAD039400E6771A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF7B5BD61CAD034100E6771A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7B5BD71CAD034100E6771A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7B5BDB1CAD034100E6771A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7B5BDC1CAD034100E6771A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7B5BDF1CAD034100E6771A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF7B5BE01CAD034100E6771A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7B5BE21CAD034100E6771A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Yallwest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kliq.Yallwest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7B5BE31CAD034100E6771A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Yallwest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kliq.Yallwest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7B5BF21CAD039400E6771A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB613A65F8DC7ED366E7BAF4 /* Pods-Yellwest Keyboard.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Yellwest Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kliq.Yallwest.Yellwest-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF7B5BF31CAD039400E6771A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B2C245C43F462ACDCC6075 /* Pods-Yellwest Keyboard.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Yellwest Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kliq.Yallwest.Yellwest-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7B5BC51CAD034100E6771A /* Build configuration list for PBXProject "Yallwest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7B5BDF1CAD034100E6771A /* Debug */,
+				EF7B5BE01CAD034100E6771A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7B5BE11CAD034100E6771A /* Build configuration list for PBXNativeTarget "Yallwest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7B5BE21CAD034100E6771A /* Debug */,
+				EF7B5BE31CAD034100E6771A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7B5BF11CAD039400E6771A /* Build configuration list for PBXNativeTarget "Yallwest Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7B5BF21CAD039400E6771A /* Debug */,
+				EF7B5BF31CAD039400E6771A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7B5BC21CAD034100E6771A /* Project object */;
+}

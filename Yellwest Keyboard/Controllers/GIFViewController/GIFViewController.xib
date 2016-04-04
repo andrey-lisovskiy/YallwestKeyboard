@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GIFViewController">
+            <connections>
+                <outlet property="gifCollectionView" destination="Qgs-pB-bUH" id="p6a-h0-4Y2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="RVR-Eg-qK2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="213"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Qgs-pB-bUH">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="213"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewLayout key="collectionViewLayout" id="cJS-Ne-fXo" customClass="SKRaggyCollectionViewLayout">
+                        <connections>
+                            <outlet property="delegate" destination="-1" id="Uie-Ca-vdE"/>
+                        </connections>
+                    </collectionViewLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="lLB-af-0MR"/>
+                        <outlet property="delegate" destination="-1" id="Wed-4C-6Uw"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Qgs-pB-bUH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1uH-nR-UP3"/>
+                <constraint firstAttribute="bottom" secondItem="Qgs-pB-bUH" secondAttribute="bottom" id="EhI-6D-RVb"/>
+                <constraint firstItem="Qgs-pB-bUH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Q5M-9C-Ceq"/>
+                <constraint firstAttribute="trailing" secondItem="Qgs-pB-bUH" secondAttribute="trailing" id="Qcj-3T-Uhs"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="280" y="326.5"/>
+        </view>
+    </objects>
+</document>
