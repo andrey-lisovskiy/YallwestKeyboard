@@ -35,7 +35,7 @@
 		EF7B5BDA1CAD034100E6771A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7B5BD91CAD034100E6771A /* Assets.xcassets */; };
 		EF7B5BDD1CAD034100E6771A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7B5BDB1CAD034100E6771A /* LaunchScreen.storyboard */; };
 		EF7B5BEC1CAD039400E6771A /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BEB1CAD039400E6771A /* KeyboardViewController.m */; };
-		EF7B5BF01CAD039400E6771A /* Yallwest Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF7B5BE81CAD039400E6771A /* Yallwest Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF7B5BF01CAD039400E6771A /* Yellwest Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF7B5BE81CAD039400E6771A /* Yellwest Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EF7B5BFC1CAD0D9E00E6771A /* YWHowToInstallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BFB1CAD0D9E00E6771A /* YWHowToInstallTableViewController.m */; };
 		EFCD08CE1CAD3F0700885535 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFCD08CC1CAD3F0700885535 /* OpenSans-Bold.ttf */; };
 		EFCD08CF1CAD3F0700885535 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFCD08CD1CAD3F0700885535 /* OpenSans-Regular.ttf */; };
@@ -66,7 +66,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				EF7B5BF01CAD039400E6771A /* Yallwest Keyboard.appex in Embed App Extensions */,
+				EF7B5BF01CAD039400E6771A /* Yellwest Keyboard.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,7 +121,7 @@
 		EF7B5BD91CAD034100E6771A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7B5BDC1CAD034100E6771A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF7B5BDE1CAD034100E6771A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF7B5BE81CAD039400E6771A /* Yallwest Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Yallwest Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7B5BE81CAD039400E6771A /* Yellwest Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Yellwest Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7B5BEA1CAD039400E6771A /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
 		EF7B5BEB1CAD039400E6771A /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
 		EF7B5BED1CAD039400E6771A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -321,7 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				EF7B5BCA1CAD034100E6771A /* Yallwest.app */,
-				EF7B5BE81CAD039400E6771A /* Yallwest Keyboard.appex */,
+				EF7B5BE81CAD039400E6771A /* Yellwest Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -459,9 +459,9 @@
 			productReference = EF7B5BCA1CAD034100E6771A /* Yallwest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF7B5BE71CAD039400E6771A /* Yallwest Keyboard */ = {
+		EF7B5BE71CAD039400E6771A /* Yellwest Keyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF7B5BF11CAD039400E6771A /* Build configuration list for PBXNativeTarget "Yallwest Keyboard" */;
+			buildConfigurationList = EF7B5BF11CAD039400E6771A /* Build configuration list for PBXNativeTarget "Yellwest Keyboard" */;
 			buildPhases = (
 				ECF5C70BEC56CE25C6226CB0 /* Check Pods Manifest.lock */,
 				EF7B5BE41CAD039400E6771A /* Sources */,
@@ -474,9 +474,9 @@
 			);
 			dependencies = (
 			);
-			name = "Yallwest Keyboard";
+			name = "Yellwest Keyboard";
 			productName = "Yellwest Keyboard";
-			productReference = EF7B5BE81CAD039400E6771A /* Yallwest Keyboard.appex */;
+			productReference = EF7B5BE81CAD039400E6771A /* Yellwest Keyboard.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -511,7 +511,7 @@
 			projectRoot = "";
 			targets = (
 				EF7B5BC91CAD034100E6771A /* Yallwest */,
-				EF7B5BE71CAD039400E6771A /* Yallwest Keyboard */,
+				EF7B5BE71CAD039400E6771A /* Yellwest Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -639,7 +639,7 @@
 /* Begin PBXTargetDependency section */
 		EF7B5BEF1CAD039400E6771A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF7B5BE71CAD039400E6771A /* Yallwest Keyboard */;
+			target = EF7B5BE71CAD039400E6771A /* Yellwest Keyboard */;
 			targetProxy = EF7B5BEE1CAD039400E6771A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -817,7 +817,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF7B5BF11CAD039400E6771A /* Build configuration list for PBXNativeTarget "Yallwest Keyboard" */ = {
+		EF7B5BF11CAD039400E6771A /* Build configuration list for PBXNativeTarget "Yellwest Keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF7B5BF21CAD039400E6771A /* Debug */,
