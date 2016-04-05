@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 
-#define KEYBOARD_BUNDLE_ID @"com.kliq.Yallwest.Yellwest-Keyboard"
-
 @interface ViewController ()
 
 @end
