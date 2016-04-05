@@ -66,6 +66,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4Ok-69-FaE"/>
+                    <connections>
+                        <outlet property="buttonsView" destination="i0a-2g-bLu" id="ztT-WZ-TSc"/>
+                        <outlet property="shareButton" destination="Qot-nB-ium" id="cqi-1N-kZ8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

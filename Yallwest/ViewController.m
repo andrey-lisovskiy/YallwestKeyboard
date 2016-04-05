@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *buttonsView;
+@property (weak, nonatomic) IBOutlet UIButton *shareButton;
 
 @end
 
@@ -26,6 +28,12 @@
     NSURL *url = [NSURL URLWithString:@"http://www.yallwest.com/"];
     
     UIActivityViewController *controller = [[UIActivityViewController alloc] initWithActivityItems:@[text, url] applicationActivities:nil];
+    
+    if ([controller respondsToSelector:@selector(popoverPresentationController)]) {
+        controller.popoverPresentationController.sourceView = self.view;
+        controller.popoverPresentationController.sourceRect = CGRectMake(CGRectGetMaxX(self.buttonsView.frame) - CGRectGetWidth(self.buttonsView.frame)/2, (CGRectGetMaxY(self.buttonsView.frame) - CGRectGetHeight(self.buttonsView.frame)/2) - CGRectGetHeight(self.shareButton.frame)/2, 0, 0);
+    }
+    
     [self presentViewController:controller animated:YES completion:nil];
 }
 
