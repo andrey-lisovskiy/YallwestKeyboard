@@ -21,11 +21,6 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 #pragma mark - Methods -
 
 - (void)presentShareController {
@@ -34,20 +29,6 @@
     
     UIActivityViewController *controller = [[UIActivityViewController alloc] initWithActivityItems:@[text, url] applicationActivities:nil];
     [self presentViewController:controller animated:YES completion:nil];
-}
-
-- (BOOL)isOpenAccessGranted {
-    return ([UIPasteboard generalPasteboard] != nil);
-}
-
-- (BOOL)isCustomKeyboardEnabled {
-    NSArray *keyboards = [[[NSUserDefaults standardUserDefaults] dictionaryRepresentation] objectForKey:@"AppleKeyboards"];
-    for (NSString *keyboard in keyboards) {
-        if ([keyboard isEqualToString:KEYBOARD_BUNDLE_ID])
-            return YES;
-    }
-    
-    return NO;
 }
 
 #pragma mark - Actions -

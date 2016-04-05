@@ -15,8 +15,6 @@
 #import "NSDictionary+Additions.h"
 #import "AFNetworking.h"
 
-
-
 @interface ContentManager ()
 {
     NSMutableArray *_giphyContents;

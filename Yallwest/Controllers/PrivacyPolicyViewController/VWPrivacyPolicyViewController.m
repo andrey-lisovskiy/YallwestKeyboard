@@ -23,19 +23,9 @@
     [self setupTextView];
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     [self.textView setContentOffset:CGPointZero];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Methods -
