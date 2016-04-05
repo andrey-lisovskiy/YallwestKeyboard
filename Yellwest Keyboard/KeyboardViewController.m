@@ -16,6 +16,8 @@
 #import "YWUtils.h"
 #import "Masonry.h"
 
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+
 typedef enum {
     CategoryTypeEmoji,
     CategoryTypeGIF,
@@ -26,6 +28,9 @@ typedef enum {
 {
     NSTimer *_backspaceKeyTimer;
 }
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *nextButtonWidthConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *backspaceButtonWidthConstraint;
+
 @property (weak, nonatomic) IBOutlet UIView *mainContainerView;
 @property (weak, nonatomic) IBOutlet UIView *categoriesContainerView;
 @property (nonatomic, strong) HMSegmentedControl *categoriesSegmentedControl;
@@ -51,6 +56,7 @@ typedef enum {
     [self initializeEmojiView];
     [self initializeYoutubeView];
     [self configureSegmentedControl];
+    [self adjustButtonsWidths];
     
     [self registerForNotifications];
 }
@@ -137,6 +143,14 @@ typedef enum {
     
     [_categoriesContainerView addSubview:_categoriesSegmentedControl];
     [self segmentedControlChangedValue:_categoriesSegmentedControl];
+}
+
+- (void)adjustButtonsWidths {
+    if (SCREEN_WIDTH == 320.f) {
+        self.nextButtonWidthConstraint.constant = 45.f;
+        self.backspaceButtonWidthConstraint.constant = 45.f;
+        [self.view layoutIfNeeded];
+    }
 }
 
 #pragma mark - Actions -

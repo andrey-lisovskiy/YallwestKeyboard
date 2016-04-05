@@ -14,7 +14,7 @@
 
 @interface GIFCell ()
 
-@property (nonatomic, strong) IMGActivityIndicator *activityIndicator;
+//@property (nonatomic, strong) IMGActivityIndicator *activityIndicator;
 @property (nonatomic, strong) DFImageTask *imageTask;
 
 @end
@@ -44,35 +44,35 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
-    [self configureActivityIndicator];
+    //[self configureActivityIndicator];
 }
 
 #pragma mark - Private methods
 
 - (void)configureActivityIndicator
 {
-    _activityIndicator = [[IMGActivityIndicator alloc] initWithFrame:self.frame];
-    _activityIndicator.backgroundColor = [YWUtils colorFromHexa:@"#f5f5f5"];
-    _activityIndicator.strokeColor = [YWUtils colorFromHexa:@"#fb9a27"];
-    _activityIndicator.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin   |
-                                           UIViewAutoresizingFlexibleRightMargin  |
-                                           UIViewAutoresizingFlexibleTopMargin    |
-                                           UIViewAutoresizingFlexibleBottomMargin);
-    _activityIndicator.alpha = 0.f;
-    
-    [self addSubview:_activityIndicator];
+//    _activityIndicator = [[IMGActivityIndicator alloc] initWithFrame:self.frame];
+//    _activityIndicator.backgroundColor = [YWUtils colorFromHexa:@"#f5f5f5"];
+//    _activityIndicator.strokeColor = [YWUtils colorFromHexa:@"#fb9a27"];
+//    _activityIndicator.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin   |
+//                                           UIViewAutoresizingFlexibleRightMargin  |
+//                                           UIViewAutoresizingFlexibleTopMargin    |
+//                                           UIViewAutoresizingFlexibleBottomMargin);
+//    _activityIndicator.alpha = 0.f;
+//    
+//    [self addSubview:_activityIndicator];
 }
 
 #pragma mark - Private methods
 
 - (void)setImageFromURL:(NSURL*)imageURL
 {
-    _activityIndicator.alpha = 1.f;
+    //_activityIndicator.alpha = 1.f;
     
     __weak typeof(self) weakSelf = self;
     _imageTask = [DFImageManager imageTaskForResource:imageURL
                                            completion:^(UIImage *image, NSError *error, DFImageResponse *response, DFImageTask *task){
-                                               weakSelf.activityIndicator.alpha = 0.f;
+//                                               weakSelf.activityIndicator.alpha = 0.f;
                                                [weakSelf.gifImageView didCompleteImageTask:task withImage:image];
                                                weakSelf.contentView.backgroundColor = [UIColor clearColor];
                                            }];

@@ -28,6 +28,7 @@
 		EF42423B1CAD629F00D0AED1 /* TCKInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242371CAD629F00D0AED1 /* TCKInfoView.m */; };
 		EF42423F1CAD63F300D0AED1 /* ContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF42423E1CAD63F300D0AED1 /* ContentManager.m */; };
 		EF4242421CAD68F800D0AED1 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242411CAD68F800D0AED1 /* NSDate-Utilities.m */; };
+		EF445AFB1CB38EA600389C97 /* VWPrivacyPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445AFA1CB38EA600389C97 /* VWPrivacyPolicyViewController.m */; };
 		EF7B5BCF1CAD034100E6771A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BCE1CAD034100E6771A /* main.m */; };
 		EF7B5BD21CAD034100E6771A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BD11CAD034100E6771A /* AppDelegate.m */; };
 		EF7B5BD51CAD034100E6771A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7B5BD41CAD034100E6771A /* ViewController.m */; };
@@ -111,6 +112,8 @@
 		EF42423E1CAD63F300D0AED1 /* ContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentManager.m; sourceTree = "<group>"; };
 		EF4242401CAD68F800D0AED1 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
 		EF4242411CAD68F800D0AED1 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
+		EF445AF91CB38EA600389C97 /* VWPrivacyPolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWPrivacyPolicyViewController.h; sourceTree = "<group>"; };
+		EF445AFA1CB38EA600389C97 /* VWPrivacyPolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWPrivacyPolicyViewController.m; sourceTree = "<group>"; };
 		EF7B5BCA1CAD034100E6771A /* Yallwest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yallwest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7B5BCE1CAD034100E6771A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF7B5BD01CAD034100E6771A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -306,6 +309,15 @@
 			path = TCKGIFCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		EF445AF81CB38E8D00389C97 /* PrivacyPolicyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF445AF91CB38EA600389C97 /* VWPrivacyPolicyViewController.h */,
+				EF445AFA1CB38EA600389C97 /* VWPrivacyPolicyViewController.m */,
+			);
+			path = PrivacyPolicyViewController;
+			sourceTree = "<group>";
+		};
 		EF7B5BC11CAD034100E6771A = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +389,7 @@
 			isa = PBXGroup;
 			children = (
 				EF7B5BF91CAD0D9E00E6771A /* HowToInstallViewController */,
+				EF445AF81CB38E8D00389C97 /* PrivacyPolicyViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -603,6 +616,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7B5BD51CAD034100E6771A /* ViewController.m in Sources */,
+				EF445AFB1CB38EA600389C97 /* VWPrivacyPolicyViewController.m in Sources */,
 				EF7B5BFC1CAD0D9E00E6771A /* YWHowToInstallTableViewController.m in Sources */,
 				EF7B5BD21CAD034100E6771A /* AppDelegate.m in Sources */,
 				EF7B5BCF1CAD034100E6771A /* main.m in Sources */,

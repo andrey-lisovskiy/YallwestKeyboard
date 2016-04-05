@@ -48,8 +48,8 @@
 - (void)customizeAppearance {
     [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
     
-    UIImage *image = [UIImage imageNamed:@"nav_bar_bg.png"];
-    [[UINavigationBar appearance] setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+    UIImage *navBarBgImage = [UIImage imageNamed:@"nav_bar_bg.png"];
+    [[UINavigationBar appearance] setBackgroundImage:navBarBgImage forBarMetrics:UIBarMetricsDefault];
 }
 
 @end

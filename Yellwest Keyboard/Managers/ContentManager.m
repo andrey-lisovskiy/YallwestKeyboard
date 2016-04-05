@@ -45,7 +45,7 @@
     
     NSString *queryString = @"http://api.giphy.com/v1/gifs";
     NSDictionary *params = @{@"api_key": kAPIKeyGiphy,
-                             @"ids" : @"oPSz3tly3rbJm, iQwmD75S11IpW, XVCOkOhRkYfbq, lNHKK2nbxouIM, UAUwzEt94u9qw, 8WXaPA2QfSKRO, lN6JDeiHedO2A, IG05D5A4jueze, WfRztREO5U0BW, S4Xt9sax17lio, 7MgItY2EUH89a, 6hx72yQS7EC4, r7iGP6Fumq37O, vW8IBI5s8mNDW, 7JOaAdwiGegOQ, xT0BKNIesmncqE2it2"};
+                             @"ids" : @"oPSz3tly3rbJm, iQwmD75S11IpW, XVCOkOhRkYfbq, lNHKK2nbxouIM, UAUwzEt94u9qw, 8WXaPA2QfSKRO, lN6JDeiHedO2A, IG05D5A4jueze, WfRztREO5U0BW, S4Xt9sax17lio, 7MgItY2EUH89a, 6hx72yQS7EC4, r7iGP6Fumq37O, vW8IBI5s8mNDW, 7JOaAdwiGegOQ, xT0BKNIesmncqE2it2, 2OrhXJujkSgHC, iabAesjclrFf2, TxfyhxcHdD0SQ, FNLbDpniXyj8A, viI0Fi9cffWbS, 8ZJwF101l4Fs4, WMK0JozX6kyuk, 115uEgyHXabbK8, D3pnGq0MMzhQY, 14wnivBKrt7FSg, LxepQuu6Sawjm, u3WObbJtkTNYc, UygFLQrmcwDvy, bjwWQpMQSGkHS"};
     
     //Create the get request
     [manager GET:queryString parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
