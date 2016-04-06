@@ -92,7 +92,7 @@
          success:^(AFHTTPRequestOperation *operation, id responseObject) {
              NSDictionary *dictionary = (NSDictionary*)responseObject;
              NSArray *itemsArray = [dictionary objectForKeyOrNil:@"items"];
-             NSNumber *viewsCount = @0;
+             NSNumber *viewsCount = nil;
              if ([itemsArray count]) {
                  NSDictionary *itemDictionary = itemsArray[0];
                  NSDictionary *statistics = [itemDictionary objectForKeyOrNil:@"statistics"];
