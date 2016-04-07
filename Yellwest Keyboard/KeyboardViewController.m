@@ -156,7 +156,7 @@ typedef enum {
 #pragma mark - Actions -
 
 - (void)shareButtonAction {
-    [self.textDocumentProxy insertText:@"You're gonna love this new keyboard! http://www.yallwest.com/"];
+    [self.textDocumentProxy insertText:@"You're gonna love this new keyboard! http://apple.co/1SC1o3V"];
 }
 
 - (void)yallwestButtonAction {

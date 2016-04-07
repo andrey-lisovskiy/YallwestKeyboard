@@ -25,7 +25,7 @@
 
 - (void)presentShareController {
     NSString *text = @"You're gonna love this new keyboard!";
-    NSURL *url = [NSURL URLWithString:@"http://www.yallwest.com/"];
+    NSURL *url = [NSURL URLWithString:@"http://apple.co/1SC1o3V"];
     
     UIActivityViewController *controller = [[UIActivityViewController alloc] initWithActivityItems:@[text, url] applicationActivities:nil];
     
