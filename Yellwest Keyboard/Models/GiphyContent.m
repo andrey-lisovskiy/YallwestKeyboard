@@ -23,13 +23,13 @@
                              objectForKeyOrNil:@"fixed_width_still"]
                             objectForKeyOrNil:@"url"];
     
-    content.thumbnailWidth = [[[dictionary objectForKeyOrNil:@"images"]
-                               objectForKeyOrNil:@"fixed_width_still"]
-                              objectForKeyOrNil:@"width"];
+    content.thumbnailWidth = @([[[[dictionary objectForKeyOrNil:@"images"]
+                                  objectForKeyOrNil:@"fixed_width_still"]
+                                 objectForKeyOrNil:@"width"] intValue]);
     
-    content.thumbnailHeight = [[[dictionary objectForKeyOrNil:@"images"]
-                                objectForKeyOrNil:@"fixed_width_still"]
-                               objectForKeyOrNil:@"height"];
+    content.thumbnailHeight = @([[[[dictionary objectForKeyOrNil:@"images"]
+                                   objectForKeyOrNil:@"fixed_width_still"]
+                                  objectForKeyOrNil:@"height"] intValue]);
     
     return content;
 }
