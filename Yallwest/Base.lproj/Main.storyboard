@@ -964,7 +964,7 @@ Cg
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
-                                        <fragment content=" log any keystrokes or sensitive informations">
+                                        <fragment content=" log any keystrokes or sensitive information">
                                             <attributes>
                                                 <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <font key="NSFont" size="11" name="HelveticaNeue"/>
