@@ -1539,19 +1539,6 @@
                         <outlet property="symbolsRow2View" destination="BgZ-MK-c5p" id="WrI-iS-Ial"/>
                     </connections>
                 </viewController>
-                <button tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pXz-BB-13K" userLabel="Next Responder Button">
-                    <rect key="frame" x="0.0" y="0.0" width="72" height="150"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <state key="normal" image="key_globe" backgroundImage="service_key_background">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <state key="highlighted">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ns0-2n-oGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="316" y="260"/>
@@ -1560,11 +1547,11 @@
     <resources>
         <image name="ic_shift_on" width="38" height="38"/>
         <image name="icon_backspace" width="41" height="41"/>
-        <image name="key_background" width="11" height="14"/>
+        <image name="key_background" width="15" height="18"/>
         <image name="key_globe" width="40" height="40"/>
         <image name="nav_delete" width="40" height="40"/>
         <image name="nav_globe" width="40" height="40"/>
         <image name="pencils1" width="40" height="40"/>
-        <image name="service_key_background" width="11" height="14"/>
+        <image name="service_key_background" width="15" height="18"/>
     </resources>
 </document>
