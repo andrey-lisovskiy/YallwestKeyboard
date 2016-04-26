@@ -10,10 +10,10 @@
 		1A328DAC497C5579DD89DC8B /* libPods-Yellwest Keyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF8766171CEFB15675EB061 /* libPods-Yellwest Keyboard.a */; };
 		EF188B861CAD444E004DF3E3 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF188B851CAD444E004DF3E3 /* Keyboard.storyboard */; };
 		EF188B8A1CAD44BF004DF3E3 /* YWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF188B891CAD44BF004DF3E3 /* YWUtils.m */; };
-		EF188B8C1CAD461D004DF3E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF188B8B1CAD461D004DF3E3 /* Images.xcassets */; };
 		EF188B941CAD4AF4004DF3E3 /* IMGActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EF188B901CAD4AF4004DF3E3 /* IMGActivityIndicator.m */; };
 		EF188B951CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF188B931CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.m */; };
 		EF25BC631CB3FA090003866F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF25BC621CB3FA090003866F /* LaunchScreen.storyboard */; };
+		EF28B0661CCF81EB0053811B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF28B0651CCF81EB0053811B /* Images.xcassets */; };
 		EF4242111CAD5CF500D0AED1 /* GiphyContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242101CAD5CF500D0AED1 /* GiphyContent.m */; };
 		EF4242141CAD5D0500D0AED1 /* YoutubeContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242131CAD5D0500D0AED1 /* YoutubeContent.m */; };
 		EF4242181CAD5E5600D0AED1 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4242171CAD5E5600D0AED1 /* NSDictionary+Additions.m */; };
@@ -81,12 +81,12 @@
 		EF188B851CAD444E004DF3E3 /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
 		EF188B881CAD44BF004DF3E3 /* YWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWUtils.h; sourceTree = "<group>"; };
 		EF188B891CAD44BF004DF3E3 /* YWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWUtils.m; sourceTree = "<group>"; };
-		EF188B8B1CAD461D004DF3E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF188B8F1CAD4AF4004DF3E3 /* IMGActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGActivityIndicator.h; sourceTree = "<group>"; };
 		EF188B901CAD4AF4004DF3E3 /* IMGActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGActivityIndicator.m; sourceTree = "<group>"; };
 		EF188B921CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRaggyCollectionViewLayout.h; sourceTree = "<group>"; };
 		EF188B931CAD4AF4004DF3E3 /* SKRaggyCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRaggyCollectionViewLayout.m; sourceTree = "<group>"; };
 		EF25BC621CB3FA090003866F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF28B0651CCF81EB0053811B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF42420F1CAD5CF500D0AED1 /* GiphyContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiphyContent.h; sourceTree = "<group>"; };
 		EF4242101CAD5CF500D0AED1 /* GiphyContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiphyContent.m; sourceTree = "<group>"; };
 		EF4242121CAD5D0500D0AED1 /* YoutubeContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeContent.h; sourceTree = "<group>"; };
@@ -376,8 +376,8 @@
 				EF42420E1CAD5CE000D0AED1 /* Models */,
 				EF188B871CAD44B4004DF3E3 /* Utils */,
 				EF4242321CAD629F00D0AED1 /* Views */,
-				EF188B8B1CAD461D004DF3E3 /* Images.xcassets */,
 				EF7B5BED1CAD039400E6771A /* Info.plist */,
+				EF28B0651CCF81EB0053811B /* Images.xcassets */,
 				EF188B851CAD444E004DF3E3 /* Keyboard.storyboard */,
 				EF7B5BEA1CAD039400E6771A /* KeyboardViewController.h */,
 				EF7B5BEB1CAD039400E6771A /* KeyboardViewController.m */,
@@ -551,13 +551,13 @@
 				EFF159101CAE9469002ED29D /* Emojis in Resources */,
 				EF42422D1CAD621400D0AED1 /* GIFViewController.xib in Resources */,
 				EFF158D01CAE6C86002ED29D /* OpenSans-Bold.ttf in Resources */,
+				EF28B0661CCF81EB0053811B /* Images.xcassets in Resources */,
 				EFF158D81CAE8827002ED29D /* EmojiViewController.xib in Resources */,
 				EF42422B1CAD621400D0AED1 /* GIFCell.xib in Resources */,
 				EF42422F1CAD621400D0AED1 /* YoutubeViewController.xib in Resources */,
 				EF188B861CAD444E004DF3E3 /* Keyboard.storyboard in Resources */,
 				EF4242311CAD621400D0AED1 /* YoutubeCell.xib in Resources */,
 				EFF158D11CAE6C88002ED29D /* OpenSans-Regular.ttf in Resources */,
-				EF188B8C1CAD461D004DF3E3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
